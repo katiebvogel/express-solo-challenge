@@ -1,0 +1,36 @@
+
+h1 {
+  text-align: center;
+  background-color: grey;
+  margin: 0 auto;
+}
+main{
+  display: block;
+
+}
+.getBalance, form {
+  display: inline-block;
+  margin: 50px;
+}
+.balance {
+  margin-left: 50px;
+  font-size: 24px;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  background-color: salmon;
+}
+.getBalance {
+  background: #3498db;
+  border-radius: 50px;
+  font-family: Arial;
+  padding: 10px 20px 10px 20px;
+}
+
+.getBalance:hover {
+  background: #3cb0fd;
+}
+
+ form {
+
+ }
