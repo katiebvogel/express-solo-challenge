@@ -3,34 +3,43 @@ h1 {
   text-align: center;
   background-color: grey;
   margin: 0 auto;
+  width: 75%;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px white;
+  font-size: 48px;
+}
+.container {
+  margin: 0 auto;
+  display: block;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 300px;
+  background-color: salmon;
+  text-align: center;
+  
 }
 main{
-  display: block;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 500px;
+  width: 500px;
+  margin: 100px;
+}
+p {
+  font-size: 28px;
+}
 
-}
-.getBalance, form {
-  display: inline-block;
-  margin: 50px;
-}
-.balance {
-  margin-left: 50px;
-  font-size: 24px;
-  text-align: center;
-  height: 200px;
-  width: 200px;
-  background-color: salmon;
-}
 .getBalance {
+  margin: 50px;
   background: #3498db;
   border-radius: 50px;
   font-family: Arial;
+  font-size: 24px;
   padding: 10px 20px 10px 20px;
 }
 
 .getBalance:hover {
   background: #3cb0fd;
 }
-
- form {
-
- }
